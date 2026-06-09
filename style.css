@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estrutura{
+    background-image: url(img/Inicio.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 120vh;
+     justify-content: center;
+     display: flex;
+     align-items:center;
+}
+
+
+h2{
+    color: white;
+    height: 80vh;
+}
+p{
+    color: white;
+    flex-direction: column;
+    align-items:flex-start;
+    flex-wrap: wrap;
+  
+}
