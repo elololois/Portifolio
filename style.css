@@ -121,5 +121,59 @@ article{
     padding: 40px;
 }
 #contatos{
-    
+    flex-direction: column;
+}
+label, input{
+display: block;
+padding: 4px;
+}
+input{
+    border-radius: 8px; /* borda redonda */
+    boder: 1px solid #E8ECF4; /* COR E ESPRESURRA DA BORDA*/
+    background: var(--bg-white,#FFF); /* cor de fundo */
+    width: 400px; /*largura */
+    height: 40px; /*altura */
+    margin-bottom: 24px;
+}
+#mensagem{
+    /*seletor por id */
+    /*aqui chamando apenas o input que tem o id mensagem */
+    height: 160px;
+}
+fieldset{
+    border: none;
+    display: flex; /*Alinhamento do botão*/
+    flex-direction: column;  /*Alinhamento do botão*/
+}
+#Contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 56px;
+    padding-left: 0;
+}
+footer div{
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 32px;
+}
+
+footer p {
+    text-align: center;
+}
+.btn{
+    width: auto;
+    padding: 8px 24px;
+    align-self: self-end; /* Alinhamento do botão */
+}
+footer div img{
+    width: 48px;
+    margin: 12px;
+}
+*/ HOUVER - estilizações para quando o mouse passar sobre o elemento*/
+
+header:hover{
+    background-color:#F9FAFF;
 }
